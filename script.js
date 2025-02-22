@@ -8,9 +8,9 @@ function searchMovie() {
 
   const movies = {
 
-    "movie1": { title: "Interstellar", url:"https://codepen.io/Lal-Thazuala/pen/jEOqMdo " },
+    "movie1": { title: "Interstellar", url:" page2.html" },
 
-    "movie2": { title: "Spider-man:Into the Spider-verse", url:"https://codepen.io/Lal-Thazuala/pen/EaxKQYg"  }
+    "movie2": { title: "Spider-man:Into the Spider-verse", url:"page3.html"  }
 
   };
 
