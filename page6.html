@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Page6.html</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Page6.html</title>
+
+  
+
+</head>
+
+<body>
+
+<!-- partial:index.partial.html -->
+
+<!DOCTYPE html>
+
+<html>
+
+  <html>
+
+  <head> <title> ABC </title> </head>
+
+ <body bgcolor="grey" text="cyan" >
+
+   <h1 > The Shawshank Redemption </h1>
+
+   <img src="https://i.imgur.com/PDMVU7L.jpeg" width="200" height="300">
+
+   <p>Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison. He becomes the most unconventional prisoner.
+ </p>
+
+     <style>
+
+  /* Rating Styles */
+
+  .rating {
+
+    display: inline-block;
+
+    unicode-bidi: bidi-isolate;
+
+    direction: rtl;
+
+    font-size: 20px;
+
+  }
+
+  .rating > label {
+
+    color: #ccc;
+
+    cursor: pointer;
+
+  }
+
+  .rating > label:hover,
+
+  .rating > label:hover ~ label,
+
+  .rating > input:checked ~ label {
+
+    color: gold;
+
+  }
+
+  .rating > input {
+
+    display: none;
+
+  }
+
+  /* Comment Section Styles */
+
+  .comments-section {
+
+    margin-top: 20px; /* Space between rating and comments */
+
+  }
+
+  .comment {
+
+    border: 1px solid #ccc;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+  }
+
+  .comment .user {
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+  }
+
+  .comment .text {
+
+    /* Style comment text as needed */
+
+  }
+
+  .add-comment {
+
+    margin-top: 10px;
+
+  }
+
+  .add-comment textarea {
+
+    width: 100%;
+
+    padding: 5px;
+
+    margin-bottom: 5px;
+
+  }
+
+</style>
+
+    <h1>Movie Title</h1>
+
+  <div class="rating">
+
+    <label>Rate this movie:</label>  
+
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5">☆</label>
+
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4">☆</label>
+
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3">☆</label>
+
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2">☆</label>
+
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1">☆</label>
+
+  </div>
+
+  <div class="comments-section">
+
+    <h2>Comments</h2>
+
+    <div class="comment">
+
+      <div class="user">User 1</div>
+
+      <div class="text">This movie was great!</div>
+
+    </div>
+
+    <div class="comment">
+
+      <div class="user">User 2</div>
+
+      <div class="text">I didn't enjoy it as much.</div>
+
+    </div>
+
+    <div class="add-comment">
+
+      <h3>Add Your Comment</h3>
+
+      <textarea id="new-comment" placeholder="Write your comment here..."></textarea><br>
+
+      <button onclick="addComment()">Submit Comment</button> </div>
+
+    </div>
+
+<script>
+
+function addComment() {
+
+  const commentText = document.getElementById('new-comment').value;
+
+  if (commentText.trim() !== "") { // Check if comment is not empty
+
+        const newComment = document.createElement('div');
+
+        newComment.className = 'comment';
+
+        const userDiv = document.createElement('div');
+
+         userDiv.className = 'user';
+
+        userDiv.textContent = "Current User"; // Replace with actual username
+
+        const textDiv = document.createElement('di
+
+  </div>
+
+  <div class="comments-section">
+
+    <h2>Comments</h2>
+
+    <div class="comment">
+
+      <div class="user">User 1</div>
+
+      <div class="text">This movie was great!</div>
+
+    </div>
+
+    <div class="comment">
+
+      <div class="user">User 2</div>
+
+      <div class="text">I didn't enjoy it as much.</div>
+
+    </div>
+
+    <div class="add-comment">
+
+      <h3>Add Your Comment</h3>
+
+      <textarea id="new-comment" placeholder="Write your comment here..."></textarea><br>
+
+      <button onclick="addComment()">Submit Comment</button> </div>
+
+    </div>
+
+<script>
+
+function addComment() {
+
+  const commentText = document.getElementById('new-comment').value;
+
+  if (commentText.trim() !== "") { // Check if comment is not empty
+
+        const newComment = document.createElement('div');
+
+        newComment.className = 'comment';
+
+        const userDiv = document.createElement('div');
+
+         userDiv.className = 'user';
+
+        userDiv.textContent = "Current User"; 
+
+        const textDiv = document.createElement('div');
+
+        textDiv.className = 'text';v');
+
+        textDiv.className = 'text';
+
+        textDiv.textContent = commentText;
+
+        newComment.appendChild(userDiv);
+
+        newComment.appendChild(textDiv);
+
+        document.querySelector('.comments-section').insertBefore(newComment, document.querySelector('.add-comment')); // Add new comment at the top
+
+        document.getElementById('new-comment').value = ""; // Clear the textarea
+
+  } else {
+
+    alert("Please enter a comment.");
+
+  }
+
+}
+
+</script>
+
+  </body>
+
+  </html>
+
+<!-- partial -->
+
+  
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
