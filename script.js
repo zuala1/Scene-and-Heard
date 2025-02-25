@@ -5,7 +5,7 @@ function searchMovie() {
 
       // Sample movie data (replace with your actual data source)
       const movies = [
-        { title: "Interstellar", link: "https://codepen.io/Lal-Thazuala/pen/jEOqMdo" },
+        { title: "Interstellar", link: "page1.html" },
         
         { title: "The Dark Knight", link: "https://codepen.io/Lal-Thazuala/pen/mydrrOP" },
         { title: "3 Idiots", link: "https://codepen.io/Lal-Thazuala/pen/XJWKoyv" },
