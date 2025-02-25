@@ -8,7 +8,7 @@ function searchMovie() {
         { title: "Interstellar", link: "page2.html" },
         
         { title: "The Dark Knight", link: "page7.html" },
-        { title: "3 Idiots", link: " page4.html" },
+        { title: "3 Idiots", link: "page4.html" },
         { title: "Spider-man:Into the Spider-verse", link: "page3.html" },
     
         { title: "The Shawshank Redemption", link: "page6.html" },
