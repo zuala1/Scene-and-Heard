@@ -5,16 +5,16 @@ function searchMovie() {
 
       // Sample movie data (replace with your actual data source)
       const movies = [
-        { title: "Interstellar", link: "page1.html" },
+        { title: "Interstellar", link: "page2.html" },
         
-        { title: "The Dark Knight", link: "https://codepen.io/Lal-Thazuala/pen/mydrrOP" },
-        { title: "3 Idiots", link: "https://codepen.io/Lal-Thazuala/pen/XJWKoyv" },
-        { title: "Spider-man:Into the Spider-verse", link: "https://codepen.io/Lal-Thazuala/pen/EaxKQYg" },
+        { title: "The Dark Knight", link: "page7.html" },
+        { title: "3 Idiots", link: " page4.html" },
+        { title: "Spider-man:Into the Spider-verse", link: "page3.html" },
     
-        { title: "The Shawshank Redemption", link: "https://codepen.io/Lal-Thazuala/pen/RNwGGGW" },
+        { title: "The Shawshank Redemption", link: "page6.html" },
         
         
-        { title: "Kabhi Khushi Kabhie Gham", link: "https://codepen.io/Lal-Thazuala/pen/gbOwMNa" }
+        { title: "Kabhi Khushi Kabhie Gham", link: "page5.html" }
       ];
 
       const filteredMovies = movies.filter(movie => 
