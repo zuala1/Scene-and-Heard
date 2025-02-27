@@ -199,43 +199,7 @@ function addComment() {
 
         userDiv.textContent = "Current User"; // Replace with actual username
 
-        const textDiv = document.createElement('di
-
-  </div>
-
-  <div class="comments-section">
-
-    <h2>Comments</h2>
-
-    <div class="comment">
-
-      <div class="user">User 1</div>
-
-      <div class="text">This movie was great!</div>
-
-    </div>
-
-    <div class="comment">
-
-      <div class="user">User 2</div>
-
-      <div class="text">I love the Ending👍.</div>
-
-    </div>
-
-    <div class="add-comment">
-
-      <h3>Add Your Comment</h3>
-
-      <textarea id="new-comment" placeholder="Write your comment here..."></textarea><br>
-
-      <button onclick="addComment()">Submit Comment</button> </div>
-
-    </div>
-
-<script>
-
-function addComment() {
+        const textDiv = document.createElement('div');
 
   const commentText = document.getElementById('new-comment').value;
 
@@ -243,17 +207,7 @@ function addComment() {
 
         const newComment = document.createElement('div');
 
-        newComment.className = 'comment';
-
         const userDiv = document.createElement('div');
-
-         userDiv.className = 'user';
-
-        userDiv.textContent = "Current User"; 
-
-        const textDiv = document.createElement('div');
-
-        textDiv.className = 'text';v');
 
         textDiv.className = 'text';
 
